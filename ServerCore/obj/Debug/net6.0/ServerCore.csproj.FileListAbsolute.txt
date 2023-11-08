@@ -1,0 +1,11 @@
+D:\workspace\ServerTest\ServerCore\bin\Debug\net6.0\ServerCore.deps.json
+D:\workspace\ServerTest\ServerCore\bin\Debug\net6.0\ServerCore.dll
+D:\workspace\ServerTest\ServerCore\bin\Debug\net6.0\ServerCore.pdb
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\ServerCore.AssemblyInfoInputs.cache
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\ServerCore.AssemblyInfo.cs
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\ServerCore.csproj.CoreCompileInputs.cache
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\ServerCore.dll
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\refint\ServerCore.dll
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\ServerCore.pdb
+D:\workspace\ServerTest\ServerCore\obj\Debug\net6.0\ref\ServerCore.dll
