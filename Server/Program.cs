@@ -2,6 +2,8 @@
 using System.Text;
 using ServerCore;
 
+namespace Server;
+
 class GameSession : Session
 {
     public override void OnConnected(EndPoint endPoint)
@@ -17,10 +19,11 @@ class GameSession : Session
         Console.WriteLine($"[OnDisconnected] {endPoint}");
     }
 
-    public override void OnRecv(ArraySegment<byte> buffer)
+    public override int OnRecv(ArraySegment<byte> buffer)
     {
-        var recvData = Encoding.UTF8.GetString(buffer.Array, buffer.Offset, buffer.Count);
+        string recvData = Encoding.UTF8.GetString(buffer.Array, buffer.Offset, buffer.Count);
         Console.WriteLine($"[OnRecv] [From Client] {recvData}");
+        return buffer.Count;
     }
 
     public override void OnSend(int numOfBytes)
